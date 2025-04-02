@@ -32,7 +32,7 @@ export const products: Product[] = [
     'Saco Cotton Rayon Azul', 
     'invierno', 
     '2070', 
-    '../src/images/S-INV/1.jpg',
+    '/images/S-INV/1.jpg',
     [
       '../src/images/S-INV/1.jpg',
       '../src/images/S-INV/2.jpg',
