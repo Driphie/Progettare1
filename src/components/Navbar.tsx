@@ -78,6 +78,15 @@ const Navbar = () => {
               Camisas
             </Link>
             
+            <Link
+              to="/ambos"
+              className={`text-sm font-medium transition-colors hover:text-tailor-navy ${
+                isActive('/ambos') ? 'text-tailor-navy border-b-2 border-tailor-navy' : 'text-tailor-charcoal'
+              }`}
+            >
+              Ambos
+            </Link>
+            
             <NavigationMenu>
               <NavigationMenuList>
                 <NavigationMenuItem>
@@ -269,6 +278,15 @@ const Navbar = () => {
                 Verano
                 </Link>
               <Link
+                to="/camisas"
+                className={`px-2 py-1 text-sm font-medium transition-colors ${
+                  isActive('/camisas') ? 'text-tailor-navy bg-gray-100' : 'text-tailor-charcoal'
+                }`}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                                Camisas
+              </Link>
+              <Link
                 to="/ambos"
                 className={`px-2 py-1 text-sm font-medium transition-colors ${
                   isActive('/ambos') ? 'text-tailor-navy bg-gray-100' : 'text-tailor-charcoal'
@@ -276,15 +294,6 @@ const Navbar = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Ambos
-              </Link>
-              <Link
-                to="/camisas"
-                className={`px-2 py-1 text-sm font-medium transition-colors ${
-                  isActive('/camisas') ? 'text-tailor-navy bg-gray-100' : 'text-tailor-charcoal'
-                }`}
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Camisas
               </Link>
               <div className="border-t border-gray-200 pt-2">
                 <p className="px-2 py-1 text-sm font-medium text-tailor-charcoal">Pantalones:</p>
