@@ -1186,6 +1186,132 @@ createProduct(
       'pantalon',
       'vestir'
     ),
+    createProduct(
+      78, 
+      'Mecanico Melange Azul Oscuro', 
+      'otoño', 
+      '625', 
+      '/images/AMBOS/25.jpg',
+      [
+        '/images/AMBOS/25.jpg',
+        '/images/AMBOS/26.jpg',
+        '/images/AMBOS/27.jpg'
+      ],
+      'ambo',
+      'ambo'
+    ),
+    createProduct(
+      79, 
+      'Mecanico Melange Azul Claro', 
+      'otoño', 
+      '626', 
+      '/images/AMBOS/28.jpg',
+      [
+        '/images/AMBOS/28.jpg',
+        '/images/AMBOS/29.jpg',
+        '/images/AMBOS/30.jpg'
+      ],
+      'ambo',
+      'ambo'
+    ),
+    createProduct(
+      80, 
+      'Mecanico Melange Gris Medio', 
+      'otoño', 
+      '627', 
+      '/images/AMBOS/31.jpg',
+      [
+        '/images/AMBOS/31.jpg',
+        '/images/AMBOS/32.jpg',
+        '/images/AMBOS/33.jpg'
+      ],
+      'ambo',
+      'ambo'
+    ),
+    createProduct(
+      81, 
+      'Linea Punto Azul Noche', 
+      'otoño', 
+      '773', 
+      '/images/AMBOS/34.jpg',
+      [
+        '/images/AMBOS/34.jpg',
+        '/images/AMBOS/35.jpg',
+        '/images/AMBOS/36.jpg'
+      ],
+      'ambo',
+      'ambo'
+    ),
+    createProduct(
+      82, 
+      'Linea Punto Azulino', 
+      'otoño', 
+      '774', 
+      '/images/AMBOS/37.jpg',
+      [
+        '/images/AMBOS/37.jpg',
+        '/images/AMBOS/38.jpg',
+        '/images/AMBOS/39.jpg'
+      ],
+      'ambo',
+      'ambo'
+    ),
+    createProduct(
+      83, 
+      'Pick And Pick Azul Noche', 
+      'otoño', 
+      '775', 
+      '/images/AMBOS/40.jpg',
+      [
+        '/images/AMBOS/40.jpg',
+        '/images/AMBOS/41.jpg',
+        '/images/AMBOS/42.jpg'
+      ],
+      'ambo',
+      'ambo'
+    ),
+    createProduct(
+      84, 
+      'Pick And Pick Gris', 
+      'otoño', 
+      '776', 
+      '/images/AMBOS/43.jpg',
+      [
+        '/images/AMBOS/43.jpg',
+        '/images/AMBOS/44.jpg',
+        '/images/AMBOS/45.jpg'
+      ],
+      'ambo',
+      'ambo'
+    ),
+    createProduct(
+      85, 
+      'Fantasia Ambo Azul', 
+      'otoño', 
+      '777', 
+      '/images/AMBOS/46.jpg',
+      [
+        '/images/AMBOS/46.jpg',
+        '/images/AMBOS/47.jpg',
+        '/images/AMBOS/48.jpg'
+      ],
+      'ambo',
+      'ambo'
+    ),
+    createProduct(
+      86, 
+      'Dibujo Lino Azulino', 
+      'otoño', 
+      '779', 
+      '/images/AMBOS/49.jpg',
+      [
+        '/images/AMBOS/49.jpg',
+        '/images/AMBOS/50.jpg',
+        '/images/AMBOS/51.jpg'
+      ],
+      'ambo',
+      'ambo'
+    ),
 ];
 
 export const getProductById = (id: number): Product | undefined => {
