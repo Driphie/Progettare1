@@ -43,19 +43,6 @@ export const products: Product[] = [
     'saco'
   ),
   createProduct(
-    2, 
-    'Saco Espiga Marron', 
-    'invierno', 
-    '2054', 
-    '/images/S-INV/4.jpg',
-    [
-      '/images/S-INV/4.jpg',
-      '/images/S-INV/5.jpg',
-      '/images/S-INV/6.jpg'
-    ],
-    'saco'
-  ),
-  createProduct(
     3, 
     'Saco Espiga Beige', 
     'invierno', 
@@ -65,19 +52,6 @@ export const products: Product[] = [
       '/images/S-INV/7.jpg',
       '/images/S-INV/8.jpg',
       '/images/S-INV/9.jpg'
-    ],
-    'saco'
-  ),
-  createProduct(
-    4, 
-    'Saco Espiga Ancha Gris', 
-    'invierno', 
-    '2057', 
-    '/images/S-INV/10.jpg',
-    [
-      '/images/S-INV/10.jpg',
-      '../src/images/S-INV/11.jpg',
-      '../src/images/S-INV/12.jpg'
     ],
     'saco'
   ),
@@ -276,19 +250,6 @@ export const products: Product[] = [
     ],
     'abrigo'
   ),
-  createProduct(
-    20, 
-    'Campera Cuadro Gris', 
-    'invierno', 
-    '1005', 
-    '/images/ABR/25.jpg',
-    [
-      '/images/ABR/25.jpg',
-      '/images/ABR/26.jpg',
-      '/images/ABR/27.jpg'
-    ],
-    'abrigo'
-  ),
   
   
   // Verano products
@@ -346,20 +307,6 @@ export const products: Product[] = [
   ),
 
    // Ambo products
-  createProduct(
-    25, 
-    'Mecanico Negro', 
-    'otoño', 
-    '620', 
-    '/images/AMBOS/1.jpg',
-    [
-      '/images/AMBOS/1.jpg',
-      '/images/AMBOS/2.jpg',
-      '/images/AMBOS/3.jpg'
-    ],
-    'ambo',
-    'ambo'
-  ),
   createProduct(
     26, 
     'Espiga Gris', 
@@ -426,20 +373,6 @@ export const products: Product[] = [
       '/images/AMBOS/7.jpg',
       '/images/AMBOS/8.jpg',
       '/images/AMBOS/9.jpg'
-    ],
-    'ambo',
-    'ambo'
-  ),
-  createProduct(
-    31, 
-    'Falso Liso Pizarra', 
-    'otoño', 
-    '795', 
-    '/images/AMBOS/19.jpg',
-    [
-      '/images/AMBOS/19.jpg',
-      '/images/AMBOS/20.jpg',
-      '/images/AMBOS/21.jpg'
     ],
     'ambo',
     'ambo'
@@ -1215,20 +1148,6 @@ createProduct(
       'ambo'
     ),
     createProduct(
-      80, 
-      'Mecanico Melange Gris Medio', 
-      'otoño', 
-      '627', 
-      '/images/AMBOS/31.jpg',
-      [
-        '/images/AMBOS/31.jpg',
-        '/images/AMBOS/32.jpg',
-        '/images/AMBOS/33.jpg'
-      ],
-      'ambo',
-      'ambo'
-    ),
-    createProduct(
       81, 
       'Linea Punto Azul Noche', 
       'otoño', 
@@ -1243,48 +1162,6 @@ createProduct(
       'ambo'
     ),
     createProduct(
-      82, 
-      'Linea Punto Azulino', 
-      'otoño', 
-      '774', 
-      '/images/AMBOS/37.jpg',
-      [
-        '/images/AMBOS/37.jpg',
-        '/images/AMBOS/38.jpg',
-        '/images/AMBOS/39.jpg'
-      ],
-      'ambo',
-      'ambo'
-    ),
-    createProduct(
-      83, 
-      'Pick And Pick Azul Noche', 
-      'otoño', 
-      '775', 
-      '/images/AMBOS/40.jpg',
-      [
-        '/images/AMBOS/40.jpg',
-        '/images/AMBOS/41.jpg',
-        '/images/AMBOS/42.jpg'
-      ],
-      'ambo',
-      'ambo'
-    ),
-    createProduct(
-      84, 
-      'Pick And Pick Gris', 
-      'otoño', 
-      '776', 
-      '/images/AMBOS/43.jpg',
-      [
-        '/images/AMBOS/43.jpg',
-        '/images/AMBOS/44.jpg',
-        '/images/AMBOS/45.jpg'
-      ],
-      'ambo',
-      'ambo'
-    ),
-    createProduct(
       85, 
       'Fantasia Ambo Azul', 
       'otoño', 
@@ -1294,20 +1171,6 @@ createProduct(
         '/images/AMBOS/46.jpg',
         '/images/AMBOS/47.jpg',
         '/images/AMBOS/48.jpg'
-      ],
-      'ambo',
-      'ambo'
-    ),
-    createProduct(
-      86, 
-      'Dibujo Lino Azulino', 
-      'otoño', 
-      '779', 
-      '/images/AMBOS/49.jpg',
-      [
-        '/images/AMBOS/49.jpg',
-        '/images/AMBOS/50.jpg',
-        '/images/AMBOS/51.jpg'
       ],
       'ambo',
       'ambo'
