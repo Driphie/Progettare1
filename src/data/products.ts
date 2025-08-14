@@ -254,32 +254,6 @@ export const products: Product[] = [
   
   // Verano products
   createProduct(
-    21, 
-    'Smoking Brocato Negro', 
-    'verano', 
-    '927', 
-    '/images/S-VER/1.jpg',
-    [
-      '/images/S-VER/1.jpg',
-      '/images/S-VER/2.jpg',
-      '/images/S-VER/3.jpg'
-    ],
-    'saco'
-  ),
-  createProduct(
-    22, 
-    'Saco Fill A Fill Azul', 
-    'verano', 
-    '2110', 
-    '/images/S-VER/4.jpg',
-    [
-      '/images/S-VER/4.jpg',
-      '/images/S-VER/5.jpg',
-      '/images/S-VER/6.jpg'
-    ],
-    'saco'
-  ),
-  createProduct(
     23, 
     'Saco Pick N Pick Azul', 
     'verano', 
@@ -1143,20 +1117,6 @@ createProduct(
         '/images/AMBOS/28.jpg',
         '/images/AMBOS/29.jpg',
         '/images/AMBOS/30.jpg'
-      ],
-      'ambo',
-      'ambo'
-    ),
-    createProduct(
-      81, 
-      'Linea Punto Azul Noche', 
-      'otoño', 
-      '773', 
-      '/images/AMBOS/34.jpg',
-      [
-        '/images/AMBOS/34.jpg',
-        '/images/AMBOS/35.jpg',
-        '/images/AMBOS/36.jpg'
       ],
       'ambo',
       'ambo'
