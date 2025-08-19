@@ -32,7 +32,7 @@ export const products: Product[] = [
   createProduct(
     1, 
     'Saco Cotton Rayon Azul', 
-    'invierno', 
+    'verano', 
     '2070', 
     '/images/S-INV/1.jpg',
     [
@@ -84,7 +84,7 @@ export const products: Product[] = [
   createProduct(
     7, 
     'Saco Sport', 
-    'invierno', 
+    'verano', 
     '2035', 
     '/images/S-INV/19.jpg',
     [

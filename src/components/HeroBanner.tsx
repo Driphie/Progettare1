@@ -14,9 +14,6 @@ const HeroBanner = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold mb-4">PROGETTARE</h1>
           <p className="text-lg md:text-xl mb-6 text-tailor-cream">Sartoria Uomo</p>
           <div className="flex flex-wrap gap-4">
-            <Button asChild className="bg-tailor-beige text-tailor-navy hover:bg-tailor-cream">
-              <Link to="/invierno">Colección Invierno</Link>
-            </Button>
             <Button asChild variant="outline" className="border-tailor-beige text-tailor-beige hover:bg-tailor-beige/10">
               <Link to="/verano">Colección Verano</Link>
             </Button>

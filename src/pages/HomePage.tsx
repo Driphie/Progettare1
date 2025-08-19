@@ -24,18 +24,6 @@ const HomePage = () => {
         </div>
       </section>
       
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-serif font-medium mb-8 text-tailor-navy text-center">Destacados de Invierno</h2>
-          <ProductGrid products={winterProducts} />
-          <div className="mt-8 text-center">
-            <a href="/invierno" className="inline-block border-b border-tailor-navy text-tailor-navy hover:border-tailor-charcoal hover:text-tailor-charcoal transition-colors duration-200">
-              Ver toda la colección
-              </a>
-          </div>
-        </div>
-      </section>
-      
       <section className="py-16 bg-tailor-cream">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-serif font-medium mb-8 text-tailor-navy text-center">Nuestros Ambos</h2>

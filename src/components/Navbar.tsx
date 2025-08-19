@@ -52,15 +52,6 @@ const Navbar = () => {
             </Link>
             
             <Link
-              to="/invierno"
-              className={`text-sm font-medium transition-colors hover:text-tailor-navy ${
-                isActive('/invierno') ? 'text-tailor-navy border-b-2 border-tailor-navy' : 'text-tailor-charcoal'
-              }`}
-            >
-              Invierno
-            </Link>
-            
-            <Link
               to="/verano"
               className={`text-sm font-medium transition-colors hover:text-tailor-navy ${
                 isActive('/verano') ? 'text-tailor-navy border-b-2 border-tailor-navy' : 'text-tailor-charcoal'
